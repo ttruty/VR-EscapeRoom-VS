@@ -21,13 +21,13 @@ public class SocketInterect : MonoBehaviour
             anim.SetTrigger("DoorOpen");
         }
     }
-    void OnTriggerExit(Collider other)
-    {
-        Debug.Log("Collision:");
-        Debug.Log(other.name);
-        if (other.name == "key")
-        {
-            anim.SetTrigger("DoorClosed");
-        }
-    }
+    //void OnTriggerExit(Collider other)
+    //{
+    //    Debug.Log("Collision:");
+    //    Debug.Log(other.name);
+    //    if (other.name == "key")
+    //    {
+    //        anim.SetTrigger("DoorClosed");
+    //    }
+    //}
 }
